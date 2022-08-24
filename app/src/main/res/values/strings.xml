@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">android-kotlin-task4</string>
+    <string name="app_name">Team Score Calculator</string>
     <string name="team_a">Team A</string>
     <string name="team_b">Team B</string>
     <string name="team_score">0</string>
