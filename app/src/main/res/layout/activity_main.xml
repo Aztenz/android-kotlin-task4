@@ -7,10 +7,35 @@
     tools:context=".MainActivity">
 
     <View
-        android:layout_width="1dp"
-        android:layout_height="match_parent"
-        android:background="@android:color/black"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="-16dp" />
+        android:id="@+id/myLine"
+        android:layout_width="2dp"
+        android:layout_height="250dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="203dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@id/myLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+
+            android:text="Team A"
+            android:textSize="24dp"
+            android:visibility="visible" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
