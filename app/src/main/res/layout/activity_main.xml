@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <View
@@ -32,6 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="70dp"
+            android:textColor="@color/button_color"
             android:text="@string/team_a"
             android:textSize="24sp"
             android:visibility="visible" />
@@ -41,6 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="@color/white"
             android:layout_marginTop="10dp"
             android:text="@string/team_score"
             android:textSize="48sp" />
@@ -88,6 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="@color/button_color"
             android:layout_marginTop="70dp"
             android:text="@string/team_b"
             android:textSize="24sp"
@@ -97,6 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="@color/white"
             android:layout_marginTop="10dp"
             android:text="@string/team_score"
             android:textSize="48sp" />
